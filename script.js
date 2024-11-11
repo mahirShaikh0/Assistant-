@@ -47,7 +47,7 @@ function takeCommand(message){
         speak("hello sir,what can i help you?")
     }
     else if(message.includes("who are you")){
-        speak("i am virtual assistant ,created by Ayush Sir")
+        speak("i am virtual assistant ,created by Arman Sir")
     }else if(message.includes("open youtube")){
         speak("opening youtube...")
         window.open("https://youtube.com/","_blank")
@@ -81,8 +81,8 @@ function takeCommand(message){
         speak(date)
       }
     else{
-        let finalText="this is what i found on internet regarding" + message.replace("shipra","") || message.replace("shifra","")
+        let finalText="this is what i found on internet regarding" + message.replace("Bixby","") || message.replace("Bixby","")
         speak(finalText)
-        window.open(`https://www.google.com/search?q=${message.replace("shipra","")}`,"_blank")
+        window.open(`https://www.google.com/search?q=${message.replace("Bixby","")}`,"_blank")
     }
 }
